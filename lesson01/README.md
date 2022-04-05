@@ -15,7 +15,5 @@ isready
 
 usinewgame
 
-pos
-
 go
 ```

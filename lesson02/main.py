@@ -1,3 +1,5 @@
+from view import print_board_header, print_board_body
+
 while True:
     tokens = input().split()
 
@@ -16,4 +18,9 @@ while True:
             print('bestmove resign')
         elif tokens[0] == 'quit':
             break
+        elif tokens[0] == 'pos':
+            # 局面表示
+            print_board_header()
+            print_board_body()
+            pass
 
